@@ -5,11 +5,69 @@ html {
   }
   
   body {
-      background-image: url("../../assets/images/background.jpg");
-      font-family: 'Charm', cursive;
-      font-size: 22px;
-      color: rgba(70, 13, 117, 0.877)
+    background-image: url("../../assets/images/black.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Vibur';
+    font-size: 21pt;
+    color:#C44D69
+}
+
+.logo {
+    text-align: center;
+    width: 65%;
+    height: 150px;
+    margin: auto;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
   }
+  
+  .logo b{
+    font: 100 12vh "Vibur";
+    color: #fee;
+    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #FFC01E, 0 0 0.5em #FFC01E, 0 0 0.1em #FFC01E, 0 10px 3px #000;
+  }
+  .logo b span{
+    animation: blink linear infinite 2s;
+  }
+  @keyframes blink {
+    78% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    79%{
+       color: #FFBA08;
+    }
+    80% {
+      
+      text-shadow: none;
+    }
+    81% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    82% {
+      color: #FFBA08;
+      text-shadow: none;
+    }
+    83% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    92% {
+      color: #FFBA08;
+      text-shadow: none;
+    }
+    92.5% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+  }
+
+
   
   h1, h2 {
       text-align: center;
@@ -26,15 +84,76 @@ html {
       margin: 0 auto;
        }
   
-  #space {
-      margin-top: 10px;
-      margin-bottom: 10px;
-      
+  
+ #guessBox {
+  text-align: center;
     
+ }
+
+ #insideGuessBox {
+    opacity: 0.6;
+    filter: alpha(opacity=50);
+    width: 600px;
+    height: 500px;
+    display: inline-block;
+    text-align: left;
+
+ }
+
+  .instructions {
+    text-align: center;
+    width: 65%;
+    height: 150px;
+    margin: auto;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
   }
-  .col-md-12{
-      background-color: rgb(245, 229, 195);
+  
+  .instructions b{
+    font: 100 5vh "Vibur";
+    color: #D88E9F;
+    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #C44D69, 0 0 0.5em #C44D69, 0 0 0.1em #C44D69, 0 10px 3px #000;
+  }
+  .instructions b span{
+    animation: blink linear infinite 2s;
+  }
+  @keyframes blink {
+    78% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    79%{
+       color: #932832
+    }
+    80% {
+      
+      text-shadow: none;
+    }
+    81% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    82% {
+      color:#932832;
+      text-shadow: none;
+    }
+    83% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    92% {
+      color: #932832;
+      text-shadow: none;
+    }
+    92.5% {
+      color: inherit;
+      text-shadow: inherit;
+    }
   }
 
 
-
+  
+  
