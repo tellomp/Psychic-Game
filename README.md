@@ -9,7 +9,9 @@
 
 * When the player loses, the Losses counter is increased and the game restarts.
 
-#Technology used
+### Technology used
 * HTML
 * CSS
 * JavaScript
+
+### Play the game here!  https://tellomp.github.io/Psychic-Game/
