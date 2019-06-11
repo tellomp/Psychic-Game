@@ -12,6 +12,11 @@
 ### Live App
 * Play the game here!  https://tellomp.github.io/Psychic-Game/
 
+
+![alt text][logo]
+
+[logo]: https://github.com/tellomp/Psychic-Game/blob/master/assets/images/psychicGame.png "Psychic Game"
+
 ### Technologies used
 * HTML
 * CSS
